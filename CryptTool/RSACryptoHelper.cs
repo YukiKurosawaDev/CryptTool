@@ -31,7 +31,6 @@ namespace CryptTool
         {
             string empty = string.Empty;
             object obj = (object)null;
-            RSAParameters rsaParameters = new RSAParameters();
             using (StringReader reader = new StringReader(pemKey))
                 obj = new PemReader((TextReader)reader).ReadObject();
             RSAParameters rsaKey;
