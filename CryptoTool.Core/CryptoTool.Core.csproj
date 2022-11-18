@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <PackageId>Yuki.Crypto.Core</PackageId>
+    <Version>1.0.1.3</Version>
+    <Authors>yuki_takeya</Authors>
+    <Company>Yuki Software</Company>
+    <Copyright>https://github.com/YukiKurosawaDev/CryptTool/blob/master/LICENSE</Copyright>
+    <PackageProjectUrl>https://github.com/YukiKurosawaDev/CryptTool.git</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/YukiKurosawaDev/CryptTool.git</RepositoryUrl>
+    <PackageTags>Crypto,Yuki,</PackageTags>
+    <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <IncludeSymbols>True</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Portable.BouncyCastle" Version="1.9.0" />
+  </ItemGroup>
+
+</Project>
