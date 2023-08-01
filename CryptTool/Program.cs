@@ -10,7 +10,7 @@ namespace CryptTool
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run((Form)new frmMain());
+            Application.Run(new frmMain());
         }
     }
 }
