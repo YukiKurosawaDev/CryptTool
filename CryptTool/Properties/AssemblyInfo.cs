@@ -10,5 +10,5 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTrademark("YukiSoft")]
 [assembly: ComVisible(false)]
 [assembly: Guid("d48c6383-56f0-4209-98e2-874ddad511f6")]
-[assembly: AssemblyFileVersion("1.0.1.0")]
-[assembly: AssemblyVersion("1.0.1.0")]
+[assembly: AssemblyFileVersion("1.1.0.0")]
+[assembly: AssemblyVersion("1.1.0.0")]

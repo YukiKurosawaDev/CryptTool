@@ -68,7 +68,7 @@ namespace CryptTool
 
             if (HexMode.Checked)
             {
-                CryptedText.Text =Encoding.UTF8.GetString(res) ;//RSACryptoHelper.HexToByteString(res);
+                CryptedText.Text = RSACryptoHelper.HexToByteString(res);
             }
             else
             {
